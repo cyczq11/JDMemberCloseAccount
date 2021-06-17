@@ -2,9 +2,9 @@ name: Building windows application with pyinstaller
 
 on:
   push:
-    branches: [ temp-build ]
+    branches: [ yqchilde-patch-1 ]
   pull_request:
-    branches: [ temp-build ]
+    branches: [ yqchilde-patch-1 ]
 
 jobs:
   build:
